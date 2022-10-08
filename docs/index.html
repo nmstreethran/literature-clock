@@ -22,7 +22,7 @@
 
             if (sfw) {
                 try {
-                    document.getElementById('sfw_toggle').innerHTML = '<a href="/">Include all quotes</a>';
+                    document.getElementById('sfw_toggle').innerHTML = '<a href="">Include all quotes</a>';
                 } catch (e) {
                     console.log(e);
                 }
@@ -170,7 +170,7 @@
             By <a href="https://twitter.com/JohsEnevoldsen">@JohsEnevoldsen</a>
         </span>
         <span id="sfw_toggle">
-            <a href="/?sfw=yes">Skip quotes marked NSFW</a>
+            <a href="?sfw=yes">Skip quotes marked NSFW</a>
         </span>
         <span>
             <a id="toggle-theme" onclick="toggle_theme()" href="#">Dark Theme</a>
