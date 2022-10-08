@@ -83,7 +83,7 @@
                     // Equation to make fontsize match
                     // y = 6.190864 - 0.01211676*x + 0.00001176814*x^2 - 1.969435e-9*x^3, where x is quote_len
                     document.getElementById('lit_quote').style.fontSize =
-                    ((6.000864 - 0.01211676 * quote_len + 0.00001176814 * quote_len ** 2 - 1.969435e-9 * quote_len ** 3) + "vw");
+                    ((6.000 - 0.01211 * quote_len + 0.00001176 * quote_len ** 2 - 1.969e-9 * quote_len ** 3) + "vw");
 
                 } catch (e) {
                     console.log(e);
@@ -136,7 +136,9 @@
         }
     </script>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <script src="theme.js"></script>
 
     <title>Literature Clock</title>
