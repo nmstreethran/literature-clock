@@ -5,17 +5,11 @@ html, body {
 
 }
 
-/*
-#lit_quote {
-
-}
-*/
 #lit_quote em {
     font-weight: 900;
     color: rgb(19, 19, 19);
     font-style: normal
 }
-
 
 #main_text {
     width: 80vw;
@@ -29,6 +23,7 @@ cite {
     padding-left: 10vw;
     font-size: 2.3vw;
 }
+
 cite #book{
     font-style: normal;
 }
@@ -43,6 +38,7 @@ cite #book{
     padding-right: 0px;
 
 }
+
 #buttom a, a:visited {
     color: rgb(66, 66, 66)
 }
