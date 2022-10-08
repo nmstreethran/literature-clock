@@ -22,7 +22,7 @@
 
             if (sfw) {
                 try {
-                    document.getElementById('sfw_toggle').innerHTML = '<a href="">Include all quotes</a>';
+                    document.getElementById('sfw_toggle').innerHTML = '<a href="./">Include all quotes</a>';
                 } catch (e) {
                     console.log(e);
                 }
@@ -83,7 +83,7 @@
                     // Equation to make fontsize match
                     // y = 6.190864 - 0.01211676*x + 0.00001176814*x^2 - 1.969435e-9*x^3, where x is quote_len
                     document.getElementById('lit_quote').style.fontSize =
-                    ((6.000 - 0.01211 * quote_len + 0.00001176 * quote_len ** 2 - 1.969e-9 * quote_len ** 3) + "vw");
+                    ((6.0 - 0.012 * quote_len + 0.000011 * quote_len ** 2 - 1.9e-9 * quote_len ** 3) + "vw");
 
                 } catch (e) {
                     console.log(e);
@@ -94,7 +94,7 @@
         function startTime(sfw) {
             // This code runs every second
             // could be optimized to check time in milliseconds and set timeout to when minute will change next time.
-            
+
             var time = new Date();
             if (current_date !== undefined
                 && current_date.getMinutes() === time.getMinutes()) {
