@@ -16,7 +16,7 @@
                 light_theme();
             }
 
-            // Check if sfw query parameter passed
+            // Check if SFW query parameter passed
             var queries = new URLSearchParams(window.location.search);
             var sfw = queries.has('sfw') && ['yes', 'true', '1'].includes(queries.get('sfw').toLowerCase());
 
@@ -42,7 +42,6 @@
                     }
                 })
                 .catch(e => console.log("error"));
-
         }
 
         function updateText(time, sfw) {
@@ -82,9 +81,8 @@
                     // set fontsize according to length
                     // Equation to make fontsize match
                     // y = 6.190864 - 0.01211676*x + 0.00001176814*x^2 - 1.969435e-9*x^3, where x is quote_len
-                    document.getElementById('lit_quote').style.fontSize =
-                    ((6.0 - 0.012 * quote_len + 0.000011 * quote_len ** 2 - 1.9e-9 * quote_len ** 3) + "vw");
-
+                    // document.getElementById('lit_quote').style.fontSize =
+                    // ((6.0 - 0.012 * quote_len + 0.000011 * quote_len ** 2 - 1.9e-9 * quote_len ** 3) + "vw");
                 } catch (e) {
                     console.log(e);
                 }
@@ -93,7 +91,8 @@
         }
         function startTime(sfw) {
             // This code runs every second
-            // could be optimized to check time in milliseconds and set timeout to when minute will change next time.
+            // could be optimised to check time in milliseconds and set timeout
+            // to when minute will change next time
 
             var time = new Date();
             if (current_date !== undefined
@@ -107,7 +106,7 @@
             //Test longest (20:15)
             //Test shortest (08:51)
             //time = new Date('Tue Nov 16 2021 22:39:00'); // Test missing quote
-            //time = new Date('Tue Nov 16 2021 00:05:00'); // Test nsfw time
+            //time = new Date('Tue Nov 16 2021 00:05:00'); // Test NSFW time
 
             updateText(time, sfw);
 
@@ -127,7 +126,6 @@
             m = checkTime(m);
             // s = checkTime(s);
             return h + "_" + m;  // fixed for windows compatibility
-
         }
 
         function checkTime(i) {
@@ -147,38 +145,29 @@
 
 <body onload="init()">
 
-    <!-- <div id="time"></div> -->
-
     <div id="main_text">
         <blockquote id="lit_quote"></blockquote>
         <cite>
-            —
-            <span id="book"></span>,
+            —<span id="book"></span>,
             <span id="author"></span>
         </cite>
     </div>
 
-    <div id="buttom">
-        <div id="github">
-            <a href="https://github.com/nmstreethran/literature-clock">GitHub</a>
-        </div>
-        <span id="based_on">
-            Credits:
-            <a href="http://www.eerlijkemedia.nl/">Jaap Meijers</a>
-            (<a href="https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/">E-reader clock</a>),
-            <a href="http://litclock.mohawkhq.com/">The Guardian</a>,
-            <a href="https://twitter.com/JohsEnevoldsen">JohsEnevoldsen</a>
-            (<a href="https://github.com/JohannesNE/literature-clock">literature-clock</a>)
-        </span>
-        <span id="sfw_toggle">
-            <a href="?sfw=yes">Skip quotes marked NSFW</a>
-        </span>
-        <span>
-            <a id="toggle-theme" onclick="toggle_theme()" href="#">Dark Theme</a>
-        </span>
-    </div>
-
-
 </body>
+
+<footer>
+    <div id="buttom">
+        <a id="sfw_toggle" href="?sfw=yes">Skip quotes marked NSFW</a> |
+        <a id="toggle-theme" onclick="toggle_theme()" href="#">Dark Theme</a> |
+        <a href="https://github.com/nmstreethran/literature-clock">GitHub</a>
+        <br/>
+        Credits:
+        <a href="http://www.eerlijkemedia.nl/">Jaap Meijers</a>
+        (<a href="https://www.instructables.com/id/Literary-Clock-Made-From-E-reader/">E-reader clock</a>) |
+        <a href="http://litclock.mohawkhq.com/">The Guardian</a> |
+        <a href="https://twitter.com/JohsEnevoldsen">JohsEnevoldsen</a>
+        (<a href="https://github.com/JohannesNE/literature-clock">literature-clock</a>)
+    </div>
+</footer>
 
 </html>

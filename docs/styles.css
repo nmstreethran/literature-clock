@@ -1,6 +1,8 @@
 html, body {
-    margin: 0; padding: 0;
+    margin: 0;
+    padding: 0;
     height: 100%;
+    width: 100%;
     overflow: auto;
     font-family: "Playfair Display", serif;
 }
@@ -9,6 +11,10 @@ html, body {
     font-weight: 700;
     color: rgb(19, 19, 19);
     font-style: normal;
+}
+
+#lit_quote {
+    font-size: xx-large;
 }
 
 #main_text {
@@ -20,36 +26,27 @@ html, body {
 cite {
     float: right;
     padding-left: 10vw;
-    font-size: 1.5vw;
-}
-
-cite #book{
-    font-style: normal;
+    font-size: large;
 }
 
 #buttom {
-    height: 10px;
     width: 90%;
-    position: fixed;
-    bottom:2%;
+    bottom: 2%;
     color: dimgray;
-    padding-left: 40px;
-    padding-right: 0px;
+    padding-left: 5%;
+    padding-right: 0;
+    position: fixed;
+    font-size: small;
 }
 
 #buttom a, a:visited {
     color: rgb(66, 66, 66);
 }
 
-#github {
-    display: inline;
-    padding-right: 5px;
-}
-
 #buttom span {
-    padding-left: 5px;
+    padding-left: 5%;
     border-left-style: solid;
-    border-left-width: 2px;
+    border-left-width: 2%;
     border-left-color: dimgray;
 }
 
