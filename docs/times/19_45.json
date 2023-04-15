@@ -1,6 +1,15 @@
 [
   {
     "time": "19:45",
+    "quote_first": "“I imagine so. He died at night, or he was last seen alive by Grace Willson at ",
+    "quote_time_case": "7:45 p.m.",
+    "quote_last": " when he heard her confession. I suppose he died of boredom.”",
+    "title": "The Black Tower",
+    "author": "P.D. James",
+    "sfw": "yes"
+  },
+  {
+    "time": "19:45",
     "quote_first": "At ",
     "quote_time_case": "quarter to eight in the evening",
     "quote_last": ", Emmett was sitting in a run-down saloon at the edge of Manhattan with a glass of beer and a photograph of Harrison Hewett on the bar in front of him.",
@@ -32,14 +41,14 @@
     "quote_time_case": "fifteen minutes to eight",
     "quote_last": ".",
     "title": "War and Peace",
-    "author": "Leo Tostoy",
+    "author": "Leo Tolstoy",
     "sfw": "yes"
   },
   {
     "time": "19:45",
-    "quote_first": "He taught me that if I had to meet someone for an appointment, I must refuse to follow the &ldquo;stupid human habit&rdquo; of arbitrarily choosing a time based on fifteen-minute intervals. &ldquo;Never meet people at ",
+    "quote_first": "He taught me that if I had to meet someone for an appointment, I must refuse to follow the “stupid human habit” of arbitrarily choosing a time based on fifteen-minute intervals. “Never meet people at ",
     "quote_time_case": "7:45",
-    "quote_last": " or 6:30, Jasper, but pick times like 7:12 and 8:03!&quot;",
+    "quote_last": " or 6:30, Jasper, but pick times like 7:12 and 8:03!”",
     "title": "A Fraction of the Whole",
     "author": "Steve Toltz",
     "sfw": "yes"
@@ -48,7 +57,7 @@
     "time": "19:45",
     "quote_first": "He tells his old friend the train times and they settle on the ",
     "quote_time_case": "19.45",
-    "quote_last": " arriving at 23.27. &ldquo;I&rsquo;ll book us into the ultra-luxurious Francis Drake Lodge. Running water in several rooms. Have you got a mobile?&quot;",
+    "quote_last": " arriving at 23.27. “I’ll book us into the ultra-luxurious Francis Drake Lodge. Running water in several rooms. Have you got a mobile?”",
     "title": "Other People's Money",
     "author": "Justin Cartwright",
     "sfw": "yes"

@@ -1,9 +1,18 @@
 [
   {
     "time": "09:28",
-    "quote_first": "&ldquo;This clock right?&rdquo; he asked the butler in the hall.<br/> &ldquo;Yes, sir.&rdquo; The clock showed ",
+    "quote_first": "The call had been made at ",
+    "quote_time_case": "9:28",
+    "quote_last": ". This was one more piece of evidence, and an important one. It proved what they had suspected from the first: that the killer was in St. Anselm’s.",
+    "title": "Death in Holy Orders",
+    "author": "P.D. James",
+    "sfw": "yes"
+  },
+  {
+    "time": "09:28",
+    "quote_first": "“This clock right?” he asked the butler in the hall.<br/> “Yes, sir.” The clock showed ",
     "quote_time_case": "twenty-eight minutes past nine",
-    "quote_last": ". &ldquo;The clocks here have to be right, sir,&rdquo; the butler added with pride and a respectful humour, on the stairs.",
+    "quote_last": ". “The clocks here have to be right, sir,” the butler added with pride and a respectful humour, on the stairs.",
     "title": "Lord Raingo",
     "author": "Arnold Bennett",
     "sfw": "yes"

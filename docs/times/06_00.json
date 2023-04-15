@@ -1,6 +1,15 @@
 [
   {
     "time": "06:00",
+    "quote_first": "The next morning, Sister Veronica is still at prayer in the chapel. At ",
+    "quote_time_case": "six",
+    "quote_last": ", when the other sisters file in for Vigils, she is there, prostrate before the cross, her arms outstretched, her forehead touching the cold stone tile. It is only when they lean forward to touch her arm gently that the women see that the blood has settled in her face. She has been dead for many hours.",
+    "title": "The Power",
+    "author": "Naomi Alderman",
+    "sfw": "yes"
+  },
+  {
+    "time": "06:00",
     "quote_first": "Sammy was bright awake at ",
     "quote_time_case": "six",
     "quote_last": ", giddy with excitement, Daddy was coming, and no settling him to anything. By late morning he was climbing the walls; I suggested we go for a walk, take a little picnic. He didn’t want to leave in case Daddy came while we were gone.<br>“How ’bout we head up the hill? We can look out for him from there. Like pirates.”<br>And that did the trick.",
@@ -21,7 +30,7 @@
     "time": "06:00",
     "quote_first": "Dan lay awake until ",
     "quote_time_case": "six",
-    "quote_last": ". Then he dressed and once more made the trek to the Red Apple. This time he did not hesitate, only instead of extracting two bottles of Bird from the cooler, he took three. What was it they used to say? Good big or go home.",
+    "quote_last": ". Then he dressed and once more made the trek to the Red Apple. This time he did not hesitate, only instead of extracting two bottles of Bird from the cooler, he took three. What was it they used to say? Go big or go home.",
     "title": "Doctor Sleep",
     "author": "Stephen King",
     "sfw": "yes"
@@ -37,7 +46,7 @@
   },
   {
     "time": "06:00",
-    "quote_first": "Ursula invites me into the wardrobe. “You haven’t aged a day, Timbo, and neither has 𝘵𝘩𝘪𝘴 snaky fellow!” Her furry fawn rubs up against my Narnian-sized lamppost and mothballs &hellip; but then, as ever, I awoke, my swollen appendage as welcome as a swollen appendix, and as useful. ",
+    "quote_first": "Ursula invites me into the wardrobe. “You haven’t aged a day, Timbo, and neither has 𝘵𝘩𝘪𝘴 snaky fellow!” Her furry fawn rubs up against my Narnian-sized lamppost and mothballs . . . but then, as ever, I awoke, my swollen appendage as welcome as a swollen appendix, and as useful. ",
     "quote_time_case": "Six o’clock",
     "quote_last": ". The heating systems composed works in the style of John Cage. Chillblains burned my toe knuckles. I thought about Christmases gone, so many more gone than lay ahead.",
     "title": "Cloud Atlas",
@@ -86,30 +95,30 @@
     "quote_time_case": "six A.M.",
     "quote_last": " by the telephone. It was Major Heathcote, and he got straight to the point. “What do you know about this mob at the cathedral?”",
     "title": "The Wedding Officer",
-    "author": "by Anthony Capella",
+    "author": "Anthony Capella",
     "sfw": "yes"
   },
   {
     "time": "06:00",
-    "quote_first": "And ever since that,’ the Hatter went on in a mournful tone, he won’t do a thing I ask! It’s always ",
+    "quote_first": "“And ever since that,” the Hatter went on in a mournful tone, “he won’t do a thing I ask! It’s always ",
     "quote_time_case": "six o’clock",
-    "quote_last": " now.’",
+    "quote_last": " now.”",
     "title": "Alice in Wonderland",
     "author": "Lewis Carroll",
     "sfw": "yes"
   },
   {
     "time": "06:00",
-    "quote_first": "&ldquo;What’s the time?&rdquo; I ask, and telling him so that he knows, &ldquo;My mother likes &lsquo;peace and quiet&rsquo; to sleep late on Saturday mornings.&rdquo;<br/>&ldquo;She does, does she? It’s ",
+    "quote_first": "“What’s the time?” I ask, and telling him so that he knows, “My mother likes ‘peace and quiet’ to sleep late on Saturday mornings.”<br/>“She does, does she? It’s ",
     "quote_time_case": "six o’clock",
-    "quote_last": ". I couldn’t sleep,&rdquo; he says wearily, like an afterthought, as if it’s what he expects. &ldquo;Why are you up so early?&rdquo;<br/>&ldquo;I woke up and needed my panda. I can’t find him.&rdquo;",
+    "quote_last": ". I couldn’t sleep,” he says wearily, like an afterthought, as if it’s what he expects. “Why are you up so early?”<br/>“I woke up and needed my panda. I can’t find him.”",
     "title": "The Saints",
     "author": "Patsy Hickman",
     "sfw": "yes"
   },
   {
     "time": "06:00",
-    "quote_first": "But every morning, even if there&rsquo;s been a nighttime session and he has only slept two hours, he gets up at ",
+    "quote_first": "But every morning, even if there’s been a nighttime session and he has only slept two hours, he gets up at ",
     "quote_time_case": "six",
     "quote_last": " and reads his paper while he drinks a strong cup of coffee. In this way Papa constructs himself every day.",
     "title": "The Elegance of the Hedgehog",
@@ -137,7 +146,7 @@
   {
     "time": "06:00",
     "quote_first": "On the 15th of September 1840, about ",
-    "quote_time_case": "six o'clock",
+    "quote_time_case": "six o’clock",
     "quote_last": " in the morning, the Ville-de-Montereau, ready to depart, pouring out great whirls of smoke by the quai Saint-Bernard.",
     "title": "L'Education sentimentale",
     "author": "Gustave Flaubert",

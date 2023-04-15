@@ -1,10 +1,19 @@
 [
   {
     "time": "02:00",
+    "quote_first": "So when Dom, looking agitated and desperate, pounded on Tom’s door at ",
+    "quote_time_case": "two in the morning",
+    "quote_last": " and said he would erase a chunk of the debt in return for an “errand,” Tom knew he had no choice. Besides, this wasn’t really an offer; it was a command.",
+    "title": "The Ambition",
+    "author": "Lee Strobel",
+    "sfw": "yes"
+  },
+  {
+    "time": "02:00",
     "quote_first": "“That night I awoke around ",
     "quote_time_case": "two o’clock",
     "quote_last": " to the sound of distant thunder and realized all over again that Mr. Harrigan was dead. <br>I was in my bed and he was in the ground.”",
-    "title": "If it Bleeds",
+    "title": "If It Bleeds",
     "author": "Stephen King",
     "sfw": "yes"
   },
@@ -60,15 +69,6 @@
     "quote_last": " when he finishes his virtual house-hunting, too early to call it a day. It’s actually time to start writing.",
     "title": "Billy Summers",
     "author": "Stephen King",
-    "sfw": "yes"
-  },
-  {
-    "time": "02:00",
-    "quote_first": "I woke to the dogs barking. I heard a door slam, and the sound of him moving into the kitchen. The fire had died out, the new wood unburned, but the lamp was still on. I peered at my watch; it was almost ",
-    "quote_time_case": "two a.m.",
-    "quote_last": " I felt cold and nauseous. I got up and smoothed my hair. I nudged Karen with a toe; she blinked awake.",
-    "title": "The Body Lies",
-    "author": "Jo Baker",
     "sfw": "yes"
   },
   {
@@ -141,7 +141,7 @@
     "quote_last": " the night peaked, and the trio decided to head back to Cleo and Frank’s place. Zoe was sitting with Audrey on the large fire escape learning how to roll the perfect joint when Cleo clambered out, her arms laden with colorful Popsicles.",
     "title": "Cleopatra and Frankenstein",
     "author": "Coco Mellors",
-    "sfw": "yes"
+    "sfw": "no"
   },
   {
     "time": "02:00",
@@ -154,7 +154,7 @@
   },
   {
     "time": "02:00",
-    "quote_first": "“I’ve been waiting here all night,” Shawn said. “Tell me everything.”<br>“Shawn,” she said. “It’s all amazing. Where do I even begin &hellip;”<br>They talked until ",
+    "quote_first": "“I’ve been waiting here all night,” Shawn said. “Tell me everything.”<br>“Shawn,” she said. “It’s all amazing. Where do I even begin . . .”<br>They talked until ",
     "quote_time_case": "two A.M.",
     "quote_last": "",
     "title": "Reprieve",
@@ -172,9 +172,9 @@
   },
   {
     "time": "02:00",
-    "quote_first": "“At ",
+    "quote_first": "At ",
     "quote_time_case": "two o’clock",
-    "quote_last": " back at the Weatherbys’ Sally asked her if she and Amory had had a “time” in the den. Isabelle turned to her quietly. In her eyes was the light of the idealist, the inviolate dreamer of Joan-like dreams.”",
+    "quote_last": " back at the Weatherbys’ Sally asked her if she and Amory had had a “time” in the den. Isabelle turned to her quietly. In her eyes was the light of the idealist, the inviolate dreamer of Joan-like dreams.",
     "title": "This Side of Paradise",
     "author": "F. Scott Fitzgerald",
     "sfw": "yes"
@@ -182,9 +182,9 @@
   {
     "time": "02:00",
     "quote_first": "As ",
-    "quote_time_case": "two o'clock",
+    "quote_time_case": "two o’clock",
     "quote_last": " pealed from the cathedral bell, Jean Valjean awoke.",
-    "title": "Les Miserables",
+    "title": "Les Misérables",
     "author": "Victor Hugo",
     "sfw": "yes"
   },
@@ -204,7 +204,7 @@
     "quote_last": ",—why, then ’tis time to do’t. Hell is murky. Fie, my lord, fie, a soldier and afeard? What need we fear who knows it when none can call our power to account? Yet who would have thought the old man to have had so much blood in him?",
     "title": "Macbeth",
     "author": "William Shakespeare",
-    "sfw": "yes"
+    "sfw": "no"
   },
   {
     "time": "02:00",
@@ -218,7 +218,7 @@
   {
     "time": "02:00",
     "quote_first": "When all had grown quiet and Fyodor Pavlovich went to bed at around ",
-    "quote_time_case": "two o'clock",
+    "quote_time_case": "two o’clock",
     "quote_last": ", Ivan Fyodorovich also went to bed with the firm resolve of falling quickly asleep, as he felt horribly exhausted.",
     "title": "The Brothers Karamazov",
     "author": "Fyodor Dostoyevsky",
