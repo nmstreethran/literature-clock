@@ -2,20 +2,16 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    width: 100%;
     overflow: auto;
     font-family: "Playfair Display", serif;
 }
 
 #lit_quote em {
-    font-weight: 700;
+    font-weight: 900;
     color: rgb(19, 19, 19);
     font-style: normal;
 }
 
-#lit_quote {
-    font-size: xx-large;
-}
 
 #main_text {
     width: 80vw;
@@ -26,27 +22,36 @@ html, body {
 cite {
     float: right;
     padding-left: 10vw;
-    font-size: large;
+    font-size: 2.3vw;
 }
 
-#buttom {
+cite #book{
+    font-style: normal;
+}
+
+#bottom {
+    height: 10px;
     width: 90%;
-    bottom: 2%;
-    color: dimgray;
-    padding-left: 5%;
-    padding-right: 0;
     position: fixed;
-    font-size: small;
+    bottom:2%;
+    color: dimgray;
+    padding-left: 40px;
+    padding-right: 0px;
+
+}
+#bottom a, a:visited {
+    color: rgb(66, 66, 66)
 }
 
-#buttom a, a:visited {
-    color: rgb(66, 66, 66);
+#github {
+    display: inline;
+    padding-right: 5px;
 }
 
-#buttom span {
-    padding-left: 5%;
+#bottom span {
+    padding-left: 5px;
     border-left-style: solid;
-    border-left-width: 2%;
+    border-left-width: 2px;
     border-left-color: dimgray;
 }
 
@@ -59,10 +64,10 @@ body.dark #lit_quote em {
     color: rgb(220, 217, 212);
 }
 
-body.dark #main_text, body.dark #buttom {
+body.dark #main_text, body.dark #bottom {
     color: rgb(166, 158, 146);
 }
 
-body.dark #buttom a, a:visited {
+body.dark #bottom a, a:visited {
     color: rgb(190, 185, 176);
 }
