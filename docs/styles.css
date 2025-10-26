@@ -25,9 +25,9 @@ cite {
     font-size: 2.3vw;
 }
 
-cite #book{
+/* cite #book{
     font-style: normal;
-}
+} */
 
 #bottom {
     height: 10px;
@@ -37,16 +37,16 @@ cite #book{
     color: dimgray;
     padding-left: 40px;
     padding-right: 0px;
-
 }
+
 #bottom a, a:visited {
     color: rgb(66, 66, 66)
 }
 
-#github {
+/* #github {
     display: inline;
     padding-right: 5px;
-}
+} */
 
 #bottom span {
     padding-left: 5px;
